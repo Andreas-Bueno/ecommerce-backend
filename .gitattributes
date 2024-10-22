@@ -1,0 +1,18 @@
+# Define a linguagem como Java
+*.java linguaguage=java
+
+# Ignora arquivos de classe compilados
+*.class binary
+
+# Ignora arquivos temporários e de log
+*.log text
+*.tmp text
+*.DS_Store binary
+
+# Define arquivos de configuração como texto
+*.properties text
+*.yml text
+*.yaml text
+
+# Define arquivos de teste
+*.test.java linguaguage=java
